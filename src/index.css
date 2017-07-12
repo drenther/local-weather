@@ -1,0 +1,79 @@
+* {
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  overflow: hidden;
+  width: 100%; }
+
+#root {
+  background: linear-gradient(50deg, #f3c680, #a1e3e2);
+  height: 100%;
+  width: 100%; }
+
+.app {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 320px;
+  height: 480px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  -webkit-box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: rgba(0, 0, 0, 0.8);
+  text-rendering: optimizeLegibility;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center; }
+  .app .loader {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .app .loader .spin {
+      display: inline-block;
+      -webkit-animation: spin 0.5s infinite linear;
+              animation: spin 0.5s infinite linear; }
+  .app .icon img {
+    width: 80px;
+    height: 80px; }
+  .app .temperature {
+    cursor: pointer; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNhc3Mvc3R5bGUuc2FzcyIsImNzcy9zdHlsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT0E7RUFDQyxVQUFTO0VBQ1QsaUJBQWdCO0VBQ2hCLFVBQVM7RUFDVCxXQUFVO0VBQ1YsK0JBQXNCO1VBQXRCLHVCQUFzQixFQUFBOztBQUV2Qjs7RUFFQyxrQ0FBaUM7RUFDakMsYUFBWTtFQUNaLGlCQUFnQjtFQUNoQixZQUFXLEVBQUE7O0FBRVo7RUFDQyxxREFBZ0U7RUFDaEUsYUFBWTtFQUNaLFlBQVcsRUFBQTs7QUFFWjtFQUNDLG1CQUFrQjtFQUNsQixTQUFRO0VBQ1IsVUFBUztFQUNULHlDQUFnQztVQUFoQyxpQ0FBZ0M7RUFDaEMsYUFBWTtFQUNaLGNBQWE7RUFDYixxQ0FBMkI7RUFDM0Isb0JBQW1CO0VBQ25CLG1EQUF5QztVQUF6QywyQ0FBeUM7RUFDekMscUJBQWE7RUFBYixxQkFBYTtFQUFiLGNBQWE7RUFDYiw2QkFBc0I7RUFBdEIsOEJBQXNCO01BQXRCLDJCQUFzQjtVQUF0Qix1QkFBc0I7RUFDdEIsMkJBQXFCO01BQXJCLHNCQUFxQjtFQUNyQiwwQkFBNkI7TUFBN0IsOEJBQTZCO0VBQzdCLDBCQUFzQjtFQUN0QixtQ0FBa0M7RUFDbEMsaUJBQWdCO0VBQ2hCLGdCQUFlO0VBQ2YsbUJBQWtCLEVBQUE7RUFFbEI7SUFDQyx5QkFBdUI7UUFBdkIsc0JBQXVCO1lBQXZCLHdCQUF1QixFQUFBO0lBRXZCO01BQ0Msc0JBQXFCO01BQ3JCLDZDQUFtQztjQUFuQyxxQ0FBbUMsRUFBQTtFQUdwQztJQUNDLFlBQVc7SUFDWCxhQUFZLEVBQUE7RUFFZDtJQUNDLGdCQUFlLEVBQUE7O0FDVmpCO0VBQ0U7SURhQSxnQ0FBdUI7WUFBdkIsd0JBQXVCLEVBQUE7RUNYdkI7SURhQSxrQ0FBeUI7WUFBekIsMEJBQXlCLEVBQUEsRUFBQTs7QUNoQjNCO0VBQ0U7SURhQSxnQ0FBdUI7WUFBdkIsd0JBQXVCLEVBQUE7RUNYdkI7SURhQSxrQ0FBeUI7WUFBekIsMEJBQXlCLEVBQUEsRUFBQSIsImZpbGUiOiJpbmRleC5jc3MifQ== */
